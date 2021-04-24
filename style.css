@@ -1,0 +1,60 @@
+nav{
+    background-color: rgb(0, 47, 255);
+    height: 60px; ;
+    font-size: 22px ;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: rgb(117, 255, 255);
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(80, 1, 1);
+}
+.baner {
+    height: 560px ;
+    background: url(https://i.gifer.com/WyPe.gif);
+    background-size: 36%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button {
+    background-color: blue;
+    height: 60px;
+    width: 200px;
+    color: rgb(117, 255, 255);
+    border: none;
+}
+.top-games a img {
+    width: 200px;
+    
+}
+.top-games .img2 {
+    width: 300px;
+}
+.top-games .img1 {
+    width: 600px;
+}
+.games {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.video {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 1200px;
+}
+td {
+    border: 1px solid black;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+}
