@@ -58,3 +58,29 @@ td {
 table{
     border-collapse: collapse;
 }
+.bober{
+    /* background-color: blue; */
+}
+.ctn{
+    /* background-color: blueviolet; */
+    margin:20px auto;
+    width: 70vw;
+    display: flex;
+    font-size: 50px;
+}
+.ctn img{
+    margin-right: 37px;
+    width: 200px;
+    min-width: 200px;
+    
+}
+
+@media screen and (max-width:942px) {
+    .ctn {
+        flex-direction: column;
+        font-size: 38px;
+    }
+    .baner {
+        background-size: 54%;
+    }
+}
